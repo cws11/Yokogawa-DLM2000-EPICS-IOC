@@ -1,0 +1,73 @@
+record(stringin, "$(P):$(R):IDN"){
+	field(SCAN, "1 second")
+	field(DTYP, "pydev")
+	field(INP, "@dev.idn")
+}
+
+record(ai, "$(P):$(R):WaveformRange"){
+        field(SCAN, "1 second")
+        field(DTYP, "pydev")
+        field(INP, "@dev.waveRange")
+}
+
+record(ai, "$(P):$(R):WaveformOffset"){
+        field(SCAN, "1 second")
+        field(DTYP, "pydev")
+        field(INP, "@dev.waveOffset")
+}
+
+record(waveform, "$(P):$(R):Trace1"){
+        field(SCAN, ".1 second")
+        field(DTYP, "pydev")
+        field(NELM, "12500")
+        field(FTVL, "DOUBLE")
+        field(INP, "@dev.trace1")        
+}
+
+record(waveform, "$(P):$(R):Trace2"){
+        field(SCAN, ".1 second")
+        field(DTYP, "pydev")
+        field(NELM, "12500")
+        field(FTVL, "DOUBLE")
+        field(INP, "@dev.trace2")        
+}
+
+record(waveform, "$(P):$(R):Trace3"){
+        field(SCAN, ".1 second")
+        field(DTYP, "pydev")
+        field(NELM, "12500")
+        field(FTVL, "DOUBLE")
+        field(INP, "@dev.trace3")        
+}
+
+record(waveform, "$(P):$(R):Trace4"){
+        field(SCAN, ".1 second")
+        field(DTYP, "pydev")
+        field(NELM, "12500")
+        field(FTVL, "DOUBLE")
+        field(INP, "@dev.trace4")        
+}
+
+record(ai, "$(P):$(R):Trace1_max"){
+        field(SCAN, "1 second")
+        field(DTYP, "pydev")
+        field(INP, "@dev.trace1_max")
+}
+
+record(ai, "$(P):$(R):Trace2_max"){
+        field(SCAN, "1 second")
+        field(DTYP, "pydev")
+        field(INP, "@dev.trace2_max")
+}
+
+record(ai, "$(P):$(R):Trace3_max"){
+        field(SCAN, "1 second")
+        field(DTYP, "pydev")
+        field(INP, "@dev.trace3_max")
+}
+
+record(ai, "$(P):$(R):Trace4_max"){
+        field(SCAN, "1 second")
+        field(DTYP, "pydev")
+        field(INP, "@dev.trace4_max")
+}

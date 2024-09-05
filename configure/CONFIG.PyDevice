@@ -1,0 +1,2 @@
+SYS_PROD_LIBS += python3.10 crypt dl m m
+USR_CXXFLAGS += -I/usr/include/python3.10 -I/usr/include/python3.10
